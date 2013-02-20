@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+    <script>
+       
+      $(document).ready(function() {
+      
+        $("input, textarea").placeholder();
+      
+      });
+    </script>
+    <style>
+      label {
+          display: block;
+          font-weight: bold;
+          margin: 0 5px 5px;
+      }
+      input {
+          display: block;
+          margin: 0 5px 20px;
+      }
+    </style>
+  </head>
+  <body> 
+    <div>
+      <h2>Placeholder demo</h2>
+      
+      <form action="placeholder.html">
+        <label for="txtFirstName">First Name</label>
+        <input type="text" id="txtFirstName" name="txtFirstName" value="" placeholder="Enter First Name">
+        
+        <label for="txtLastName">Last Name</label>
+        <input type="text" id="txtLastName" name="txtLastName" value="" placeholder="Enter Last Name">
+
+        <br/>
+        <label for="cboIceCream">What flavor do you like?</label>
+        <select id= "cboIceCream" name="cboIceCream" placeholder="What flavor do you like?">
+          <option>Vanilla</option>
+          <option>Chocolate</option>
+          <option>Froyo</option>
+          <option>Stuff</option>
+        </select>
+        <br/><br/>
+        
+        <label for="txtEmail">E-mail</label>
+        <input type="email" id="txtEmail" name="txtEmail" placeholder="Email Address">
+
+        <label for="txtArea1">txtArea1</label>
+        <textarea id="txtArea1" name="txtArea1" placeholder="Placeholder Text..."></textarea>
+        <br/>              
+        <input type="submit" value="Submit to myself">
+      </form>
+    </div>
+  </body>
+</html>
