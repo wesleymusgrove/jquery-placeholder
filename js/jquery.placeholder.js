@@ -28,7 +28,7 @@ $(document).ready(function() {
     $("input, textarea").placeholder();
 });
 
-<input type="text" id="txtFromCity" name="txtFromCity" value="" placeholder="Moving From ZIP or City & State">
+<input type="text" id="txtFirstName" name="txtFirstName" value="" placeholder="Enter First Name...">
 <textarea id="txtArea1" name="txtArea1" placeholder="Placeholder Text..."></textarea>
  */
 (function($){
